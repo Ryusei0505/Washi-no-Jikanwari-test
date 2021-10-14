@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C758602327180210008BB44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758602227180210008BB44A /* AppDelegate.swift */; };
+		C758602527180210008BB44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758602427180210008BB44A /* ViewController.swift */; };
+		C758602827180210008BB44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C758602627180210008BB44A /* Main.storyboard */; };
+		C758602B27180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C758602927180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodeld */; };
+		C758602D27180214008BB44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C758602C27180214008BB44A /* Assets.xcassets */; };
+		C758603027180214008BB44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C758602E27180214008BB44A /* LaunchScreen.storyboard */; };
+		C758603B27180214008BB44A /* Washi_no_Jikanwari_generalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758603A27180214008BB44A /* Washi_no_Jikanwari_generalTests.swift */; };
+		C758604627180214008BB44A /* Washi_no_Jikanwari_generalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C758604527180214008BB44A /* Washi_no_Jikanwari_generalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C758603727180214008BB44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C758601727180210008BB44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C758601E27180210008BB44A;
+			remoteInfo = "Washi-no-Jikanwari-general";
+		};
+		C758604227180214008BB44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C758601727180210008BB44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C758601E27180210008BB44A;
+			remoteInfo = "Washi-no-Jikanwari-general";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C758601F27180210008BB44A /* Washi-no-Jikanwari-general.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Washi-no-Jikanwari-general.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C758602227180210008BB44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C758602427180210008BB44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C758602727180210008BB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C758602A27180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Washi_no_Jikanwari_general.xcdatamodel; sourceTree = "<group>"; };
+		C758602C27180214008BB44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C758602F27180214008BB44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C758603127180214008BB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C758603627180214008BB44A /* Washi-no-Jikanwari-generalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Washi-no-Jikanwari-generalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C758603A27180214008BB44A /* Washi_no_Jikanwari_generalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Washi_no_Jikanwari_generalTests.swift; sourceTree = "<group>"; };
+		C758603C27180214008BB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C758604127180214008BB44A /* Washi-no-Jikanwari-generalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Washi-no-Jikanwari-generalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C758604527180214008BB44A /* Washi_no_Jikanwari_generalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Washi_no_Jikanwari_generalUITests.swift; sourceTree = "<group>"; };
+		C758604727180214008BB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C758601C27180210008BB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603327180214008BB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603E27180214008BB44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C758601627180210008BB44A = {
+			isa = PBXGroup;
+			children = (
+				C758602127180210008BB44A /* Washi-no-Jikanwari-general */,
+				C758603927180214008BB44A /* Washi-no-Jikanwari-generalTests */,
+				C758604427180214008BB44A /* Washi-no-Jikanwari-generalUITests */,
+				C758602027180210008BB44A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C758602027180210008BB44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C758601F27180210008BB44A /* Washi-no-Jikanwari-general.app */,
+				C758603627180214008BB44A /* Washi-no-Jikanwari-generalTests.xctest */,
+				C758604127180214008BB44A /* Washi-no-Jikanwari-generalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C758602127180210008BB44A /* Washi-no-Jikanwari-general */ = {
+			isa = PBXGroup;
+			children = (
+				C758602227180210008BB44A /* AppDelegate.swift */,
+				C758602427180210008BB44A /* ViewController.swift */,
+				C758602627180210008BB44A /* Main.storyboard */,
+				C758602C27180214008BB44A /* Assets.xcassets */,
+				C758602E27180214008BB44A /* LaunchScreen.storyboard */,
+				C758603127180214008BB44A /* Info.plist */,
+				C758602927180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodeld */,
+			);
+			path = "Washi-no-Jikanwari-general";
+			sourceTree = "<group>";
+		};
+		C758603927180214008BB44A /* Washi-no-Jikanwari-generalTests */ = {
+			isa = PBXGroup;
+			children = (
+				C758603A27180214008BB44A /* Washi_no_Jikanwari_generalTests.swift */,
+				C758603C27180214008BB44A /* Info.plist */,
+			);
+			path = "Washi-no-Jikanwari-generalTests";
+			sourceTree = "<group>";
+		};
+		C758604427180214008BB44A /* Washi-no-Jikanwari-generalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C758604527180214008BB44A /* Washi_no_Jikanwari_generalUITests.swift */,
+				C758604727180214008BB44A /* Info.plist */,
+			);
+			path = "Washi-no-Jikanwari-generalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C758601E27180210008BB44A /* Washi-no-Jikanwari-general */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C758604A27180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-general" */;
+			buildPhases = (
+				C758601B27180210008BB44A /* Sources */,
+				C758601C27180210008BB44A /* Frameworks */,
+				C758601D27180210008BB44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Washi-no-Jikanwari-general";
+			productName = "Washi-no-Jikanwari-general";
+			productReference = C758601F27180210008BB44A /* Washi-no-Jikanwari-general.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C758603527180214008BB44A /* Washi-no-Jikanwari-generalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C758604D27180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-generalTests" */;
+			buildPhases = (
+				C758603227180214008BB44A /* Sources */,
+				C758603327180214008BB44A /* Frameworks */,
+				C758603427180214008BB44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C758603827180214008BB44A /* PBXTargetDependency */,
+			);
+			name = "Washi-no-Jikanwari-generalTests";
+			productName = "Washi-no-Jikanwari-generalTests";
+			productReference = C758603627180214008BB44A /* Washi-no-Jikanwari-generalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C758604027180214008BB44A /* Washi-no-Jikanwari-generalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C758605027180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-generalUITests" */;
+			buildPhases = (
+				C758603D27180214008BB44A /* Sources */,
+				C758603E27180214008BB44A /* Frameworks */,
+				C758603F27180214008BB44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C758604327180214008BB44A /* PBXTargetDependency */,
+			);
+			name = "Washi-no-Jikanwari-generalUITests";
+			productName = "Washi-no-Jikanwari-generalUITests";
+			productReference = C758604127180214008BB44A /* Washi-no-Jikanwari-generalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C758601727180210008BB44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kawai Ryusei";
+				TargetAttributes = {
+					C758601E27180210008BB44A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C758603527180214008BB44A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C758601E27180210008BB44A;
+					};
+					C758604027180214008BB44A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C758601E27180210008BB44A;
+					};
+				};
+			};
+			buildConfigurationList = C758601A27180210008BB44A /* Build configuration list for PBXProject "Washi-no-Jikanwari-general" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C758601627180210008BB44A;
+			productRefGroup = C758602027180210008BB44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C758601E27180210008BB44A /* Washi-no-Jikanwari-general */,
+				C758603527180214008BB44A /* Washi-no-Jikanwari-generalTests */,
+				C758604027180214008BB44A /* Washi-no-Jikanwari-generalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C758601D27180210008BB44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C758603027180214008BB44A /* LaunchScreen.storyboard in Resources */,
+				C758602D27180214008BB44A /* Assets.xcassets in Resources */,
+				C758602827180210008BB44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603427180214008BB44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603F27180214008BB44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C758601B27180210008BB44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C758602B27180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodeld in Sources */,
+				C758602527180210008BB44A /* ViewController.swift in Sources */,
+				C758602327180210008BB44A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603227180214008BB44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C758603B27180214008BB44A /* Washi_no_Jikanwari_generalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C758603D27180214008BB44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C758604627180214008BB44A /* Washi_no_Jikanwari_generalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C758603827180214008BB44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C758601E27180210008BB44A /* Washi-no-Jikanwari-general */;
+			targetProxy = C758603727180214008BB44A /* PBXContainerItemProxy */;
+		};
+		C758604327180214008BB44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C758601E27180210008BB44A /* Washi-no-Jikanwari-general */;
+			targetProxy = C758604227180214008BB44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C758602627180210008BB44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C758602727180210008BB44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C758602E27180214008BB44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C758602F27180214008BB44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C758604827180214008BB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C758604927180214008BB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C758604B27180214008BB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-general/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-general";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C758604C27180214008BB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-general/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-general";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C758604E27180214008BB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-generalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-generalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Washi-no-Jikanwari-general.app/Washi-no-Jikanwari-general";
+			};
+			name = Debug;
+		};
+		C758604F27180214008BB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-generalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-generalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Washi-no-Jikanwari-general.app/Washi-no-Jikanwari-general";
+			};
+			name = Release;
+		};
+		C758605127180214008BB44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-generalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-generalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Washi-no-Jikanwari-general";
+			};
+			name = Debug;
+		};
+		C758605227180214008BB44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT639KHU3H;
+				INFOPLIST_FILE = "Washi-no-Jikanwari-generalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kawai.Washi-no-Jikanwari-generalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Washi-no-Jikanwari-general";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C758601A27180210008BB44A /* Build configuration list for PBXProject "Washi-no-Jikanwari-general" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C758604827180214008BB44A /* Debug */,
+				C758604927180214008BB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C758604A27180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-general" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C758604B27180214008BB44A /* Debug */,
+				C758604C27180214008BB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C758604D27180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-generalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C758604E27180214008BB44A /* Debug */,
+				C758604F27180214008BB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C758605027180214008BB44A /* Build configuration list for PBXNativeTarget "Washi-no-Jikanwari-generalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C758605127180214008BB44A /* Debug */,
+				C758605227180214008BB44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C758602927180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C758602A27180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodel */,
+			);
+			currentVersion = C758602A27180210008BB44A /* Washi_no_Jikanwari_general.xcdatamodel */;
+			path = Washi_no_Jikanwari_general.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C758601727180210008BB44A /* Project object */;
+}
