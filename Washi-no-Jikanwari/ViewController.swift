@@ -15,7 +15,7 @@ class ViewController: UIViewController,UICollectionViewDataSource, UICollectionV
     @IBOutlet weak var CollectionViewFlowLayout: UICollectionViewFlowLayout!
     
     
-    //時間割セル設定
+    //時間割セルの設定
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
